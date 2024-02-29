@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(100, 82, 67);
+}
+header {
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sunlight {
+  max-width: 100px;
+}
+.navegacao ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  padding: 14px;
+}
+.navegacao ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.navegacao ul li a:hover,
+.navegacao ul li a:focus {
+  color: yellow;
+}
+.navegacao ul li a.ativo {
+  color: yellow;
+  font-weight: bold;
+}
+.navegacao ul li a.ativo:hover,
+.navegacao ul li a.ativo:focus {
+  color: white;
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  padding: 0 32px;
+}
+main.sobre .logo {
+  max-width: 300px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 0 32px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.redessociais {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.redessociais img {
+  width: 24px;
+}
+.redessociais a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
